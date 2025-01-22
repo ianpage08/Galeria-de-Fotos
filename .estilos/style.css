@@ -12,3 +12,9 @@
 .carousel-inner {
     border-radius: 20px;
 }
+.card img{
+    padding-top: 10px;
+    max-width: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
