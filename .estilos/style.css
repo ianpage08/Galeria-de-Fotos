@@ -1,6 +1,14 @@
 @charset "UTF-8";
 
-#slide { 
-    width: 600px;
+
+
+.carrosel {
+    margin-top: 50px;
+    width: 50vw;
+    max-width: 100vw;
+    background-color: rgb(255, 255, 255);
     
+}
+.carousel-inner {
+    border-radius: 20px;
 }
