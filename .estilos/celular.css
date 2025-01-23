@@ -1,0 +1,32 @@
+@media screen and (max-width:600px ){
+    .carrosel {
+        margin-top: 50px;
+        width: 100vw;
+    }
+    .nav-foto{
+        flex-flow: column;
+    }
+    .nav-tabs .nav-link{
+        margin: 6px 0px;
+    }
+    
+    .minha-logo{
+        display: flex;
+        justify-content: center;
+    }
+    .logo-rodape{
+        display: block;
+        margin: 0px  30px;
+    }
+    .logo-rodape .col-6{
+        width: 100%;
+        padding: 10px;
+        
+    }
+    .logo-wi{
+        justify-content: center;
+    }
+    .justify-content-end{
+        justify-content: center!important;
+    }
+}

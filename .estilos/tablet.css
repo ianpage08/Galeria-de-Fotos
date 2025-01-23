@@ -1,0 +1,30 @@
+@media screen and (max-width:900px ){ 
+    .tela{
+        display: flex;
+        flex-flow: column-reverse ;
+    }
+
+    .col-4{
+        width: 90.333333%;
+    }
+    .tela .card{
+        margin-top: 16px;
+    }
+    .carrosel {
+        margin-top: 50px;
+        width: 100vw;
+        
+    }
+    .rodape .col-4{
+        width: 100%
+    }
+    .rodape .card-subtitle{
+        padding-bottom: 5px;
+    }
+    .rodape .fundo{ 
+        margin: 16px 0px;
+        border-bottom: 1px solid white;
+    }
+    
+    
+}
