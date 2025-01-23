@@ -1,15 +1,21 @@
 @charset "UTF-8";
 
+
 #top{
     padding-top: 50px;
+    
+}
+body{
+    background-image:linear-gradient(to bottom,#fad2e5, #e4b8f8) ;
+}
+header{
+    border-bottom: 1px solid aliceblue;
 }
 
 .carrosel {
     margin-top: 50px;
     width: 50vw;
     max-width: 100vw;
-    background-color: rgb(255, 255, 255);
-    
 }
 .carousel-inner {
     border-radius: 20px;
@@ -20,16 +26,128 @@
     width: 100px;
     border-radius: 50%;
 }
-.card-group img{
-    margin-top: 10px;
-    height: 300px;
-    width: 200px;
+.h2-fotos{
+    font-style: italic;
+    padding: 10px;
     
+}
+.card-group img{
+    cursor: pointer;
+    margin-top: 10px;
+    height: 350px;
+    width: 250px;
+    
+}
+.card-group img:hover{
+    margin: 3px 0px;
+    filter: brightness(1.1);
+    transform: scale(1.0);
+    transition-duration: 0.5s;   
+}
+    
+.display{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
 
+.galeria{
+    margin-top: 50px;
 }
-.card-group{
-    display: inline-block;
+.nav-foto{
+    display: flex;
+    justify-content: center;
 }
-.eventos-card img {
-    border-radius: 0px;
+.btn-estilo{
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 0px 5px;
+    background-color: #fbdb3b9c;
+    color: rgb(0, 0, 0);
+}
+.btn-estilo:hover{
+    transition-duration: 0.5s;
+    background-color: rgb(255, 255, 255);
+}
+.logo-wi{
+    cursor: pointer;
+    width: 50px;
+    margin: 0px 10px;
+    
+}
+.rodape{
+    background-color: rgb(58, 58, 58);
+    padding: 30px;
+}
+.fundo{
+    color: bisque;
+    border: none;
+    background-color: rgb(58, 58, 58);
+}
+.ultimo-conteudo{
+    padding: 20px;
+    
+}
+@media screen and (max-width:900px ){ 
+    .tela{
+        display: flex;
+        flex-flow: column-reverse ;
+    }
+
+    .col-4{
+        width: 90.333333%;
+    }
+    .tela .card{
+        margin-top: 16px;
+    }
+    .carrosel {
+        margin-top: 50px;
+        width: 100vw;
+        
+    }
+    .rodape .col-4{
+        width: 100%
+    }
+    .rodape .card-subtitle{
+        padding-bottom: 5px;
+    }
+    .rodape .fundo{ 
+        margin: 16px 0px;
+        border-bottom: 1px solid white;
+    }
+    
+    
+}
+@media screen and (max-width:600px ){
+    .carrosel {
+        margin-top: 50px;
+        width: 100vw;
+    }
+    .nav-foto{
+        flex-flow: column;
+    }
+    .nav-tabs .nav-link{
+        margin: 6px 0px;
+    }
+    
+    .minha-logo{
+        display: flex;
+        justify-content: center;
+    }
+    .logo-rodape{
+        display: block;
+        margin: 0px  30px;
+    }
+    .logo-rodape .col-6{
+        width: 100%;
+        padding: 10px;
+        
+    }
+    .logo-wi{
+        justify-content: center;
+    }
+    .justify-content-end{
+        justify-content: center!important;
+    }
 }
